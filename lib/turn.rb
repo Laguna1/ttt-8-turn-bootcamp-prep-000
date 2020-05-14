@@ -13,7 +13,9 @@ def display_board(board)
 end
 
 def valid_move?
-
+#Should accept a board and an index from the user 
+#and return true if the index is within the correct range of 0-8 
+#and is currently unoccupied by an X or O toke
 end
 
 
