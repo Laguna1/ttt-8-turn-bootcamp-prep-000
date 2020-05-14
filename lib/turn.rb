@@ -40,6 +40,6 @@ def move(board,index,symbol)
   #The method should set the correct index value of that position within the board equal to the token.
 end
 
-def turn
+def turn(user_input)
   
 end
