@@ -19,6 +19,6 @@ def valid_move?
 end
 
 
-def return
-
+def turn
+  
 end
