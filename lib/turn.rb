@@ -33,11 +33,13 @@ def position_taken?(board, index)
   board[index] != " "
 end
 
+ #move
+ #accept a board, an index from the user (which was converted from their raw input with input_to_index), 
+ #and a token to mark that position withgive that argument
+ #a default value of 'X'––we're not worrying about whose turn it is yet). 
+ #The method should set the correct index value of that position within the board equal to the token.
 def move(board,index,symbol)
-  #accept a board, an index from the user (which was converted from their raw input with input_to_index), 
-  #and a token to mark that position withgive that argument
-  #a default value of 'X'––we're not worrying about whose turn it is yet). 
-  #The method should set the correct index value of that position within the board equal to the token.
+ 
 end
 
 def turn(user_input)
