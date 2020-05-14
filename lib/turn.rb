@@ -21,6 +21,9 @@ def valid_move?
   index.between?(0,8) && !position_taken?(board, index)
 end
 
+def position_taken?(board, index)
+  board[index] != " "
+end
 
 def move(board,index,symbol)
   #accept a board, an index from the user (which was converted from their raw input with input_to_index), 
