@@ -26,7 +26,12 @@ end
   #and is currently unoccupied by an X or O toke
   
 def valid_move?
-  position.to_i.between?(0,8) && !position_taken?(board, position.to_i-1)
+  #position.to_i.between?(0,8) && !position_taken?(board, position.to_i-1)
+  if index.between?(0,8)
+    if !position_taken?(board, index)
+      true
+    end
+  end
 end
 
 def position_taken?(board, index)
