@@ -17,7 +17,10 @@ def valid_move?
   #accept a board and an index from the user 
   #and return true if the index is within the correct range of 0-8 
   #and is currently unoccupied by an X or O toke
+  
+  index.between?(0,8) && !position_taken?(board, index)
 end
+
 
 def move(board,index,symbol)
   #accept a board, an index from the user (which was converted from their raw input with input_to_index), 
