@@ -7,7 +7,11 @@
 # else
 #   ask for input again until you get a valid input
 # end
-d
-ef return
+def display_board(board)
+
+end
+
+
+def return
 
 end
