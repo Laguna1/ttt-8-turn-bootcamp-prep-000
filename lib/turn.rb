@@ -47,7 +47,7 @@ def move(board, index, current_player = "X")
   board[index] = current_player
 end
 
-def turn(user_input)
+def turn(input)
   puts "Please enter 1-9:"
   input = gets.strip   #Sstrip looks at both start&end of the string for newline character and removes them
   index = input_to_index(input)
