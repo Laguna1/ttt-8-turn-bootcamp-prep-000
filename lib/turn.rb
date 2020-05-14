@@ -49,8 +49,8 @@ end
 
 def turn(user_input)
   puts "Please enter 1-9:"
-  user_input = gets.strip   #Sstrip looks at both start&end of the string for newline character and removes them
-  user_input.input_to_index
+  input = gets.strip   #Sstrip looks at both start&end of the string for newline character and removes them
+  input = input_to_index
   user_input.valid_move?
   
 end
