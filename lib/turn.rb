@@ -30,7 +30,7 @@ def move(board,index,symbol)
   #and a token to mark that position withgive that argument
   #a default value of 'X'––we're not worrying about whose turn it is yet). 
   #The method should set the correct index value of that position within the board equal to the token.
-
+end
 
 def turn
   
