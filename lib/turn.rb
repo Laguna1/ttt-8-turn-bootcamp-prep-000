@@ -18,6 +18,10 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+def input_to_index(user_input)
+  user_input.to_i - 1
+end
+
 def valid_move?
   #accept a board and an index from the user 
   #and return true if the index is within the correct range of 0-8 
