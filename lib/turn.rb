@@ -11,6 +11,11 @@
 def display_board(board)
   #accept a board as an argument and
   # print out the current state of the board for the user
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
+  puts "-----------"
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
+  puts "-----------"
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
 def valid_move?
